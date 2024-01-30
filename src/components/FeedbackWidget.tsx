@@ -56,6 +56,7 @@ const FixedDot = ({
         transform: "scale(1.1)",
         transition: "transform 0.2s ease-in-out",
       }}
+      transformOrigin="bottom right"
       transition="transform 0.2s ease-in-out, width 0.25s linear,
       border-radius 0.25s linear"
       {...props}
